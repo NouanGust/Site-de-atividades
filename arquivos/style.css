@@ -1,4 +1,77 @@
+:root{
+    --cor1: #6201F5;
+    --cor2: #0015FF;
+    --cor3: #1388E8;
+    --cor4: #08FFFA;
+}
+
+
 *{
     padding: 0px;
     margin: 0px;   
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(241, 238, 195);
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(var(--cor3), var(--cor2)  );
+    padding: 30px;
+    color: white;
+}
+
+header > h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+}
+
+header > p{
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 5px;
+
+
+}
+ 
+nav > a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+nav > a:hover{
+    color:white;
+    background-color: var(--cor3)
+}
+
+footer{
+    font-size: 1em;
+    color: black;
+    background-color: turquoise;
+}
+
+footer > div > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer > div > a:hover{
+    color: gray;
+    font-size: 1.1em;
 }

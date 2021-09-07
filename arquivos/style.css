@@ -14,7 +14,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: rgb(241, 238, 195);
+    
 }
 
 header{
@@ -59,19 +59,28 @@ nav > a:hover{
     background-color: var(--cor3)
 }
 
+article > div > section > Ul{
+    display: flex;
+    flex-direction: row;
+}
+
 footer{
     font-size: 1em;
-    color: black;
-    background-color: turquoise;
+    color: white;
+    background-color: var(--cor2);
+    padding: 10px;
+    
 }
 
 footer > div > a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
+    border-radius: 3px;
 }
 
 footer > div > a:hover{
-    color: gray;
+    color: white;
     font-size: 1.1em;
+    background-color: var(--cor3)
 }
